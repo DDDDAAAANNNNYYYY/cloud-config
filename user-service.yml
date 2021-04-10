@@ -5,4 +5,10 @@ eureka:
   instance:
     preferIpAddress: true
 server:
-    port: 8090
+  port: 8090
+    
+spring: 
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin123456@cluster0.cy4yt.mongodb.net/test?retryWrites=true&w=majority
+      database: test
