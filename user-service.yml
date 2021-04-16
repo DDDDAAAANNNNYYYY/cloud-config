@@ -12,11 +12,4 @@ spring:
     mongodb:
       uri: mongodb+srv://admin:admin123456@cluster0.cy4yt.mongodb.net/test?retryWrites=true&w=majority
       database: test
-  application:
-    name: rabbit_spring
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
-    virtual-host: /
+  
